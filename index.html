@@ -37,20 +37,24 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
-<div>
+    <body><div>
         <!-- Add your site or application content here -->
+        <div class="wrapper" id="header">
+		<h1>Chapter 2. Homework #1:</h1>
+		<h3>&lt;video /&gt; and &lt;track /&gt;</h3>
+		</div>
+		<div class="wrapper">
+			<video width="480" height="320" poster="recursos/BigBuck/poster.jpg" controls >
+			  <source src="recursos/BigBuck/BigBuck.m4v" type="video/mp4" />
+			  <source src="recursos/BigBuck/BigBuck.theora.ogv" type="video/ogg" /> <!--  firefox -->
+			  <source src="recursos/BigBuck/BigBuck.webm" type="video/webm" /> <!-- chrome -->
+			  <track src="recursos/BigBuck/subs.vtt" kind="subtitles" srclang="en" label="English" default />
+			  <track src="recursos/BigBuck/subs.vtt" kind="subtitles" srclang="es" label="Español" />
+			  <p>Your browser does not support the <code>video</code> element.</p>
+			</video>
+		</div>
 		
-		<video width="480" height="320" poster="recursos/BigBuck/poster.jpg" controls >
-		  <source src="recursos/BigBuck/BigBuck.m4v" type="video/mp4" />
-		  <source src="recursos/BigBuck/BigBuck.theora.ogv" type="video/ogg" /> <!--  firefox -->
-		  <source src="recursos/BigBuck/BigBuck.webm" type="video/webm" /> <!-- chrome -->
-		  <track src="recursos/BigBuck/subs.vtt" kind="subtitles" srclang="en" label="English" default />
-		  <track src="recursos/BigBuck/subs.vtt" kind="subtitles" srclang="es" label="Español" />
-		  <p>Your browser does not support the <code>video</code> element.</p>
-		</video> 
-		
-	</div>	
+		</div>	
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 

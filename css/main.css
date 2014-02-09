@@ -66,16 +66,21 @@ textarea {
    ========================================================================== */
 
 
+body{
+	padding: 15px;
+	background-color: #8888FF;
+}
 
-
-
-
-
-
-
-
-
-
+div.wrapper{
+	border-radius: 25px;
+	padding: 25px;
+	margin: 15px;
+	background-color: #AAAAFF;
+	text-align: center;
+}
+div#header{
+	background-color: #CCCCFF;
+}
 
 
 
