@@ -44,12 +44,25 @@
 		<h3>&lt;video /&gt; and &lt;track /&gt;</h3>
 		</div>
 		<div class="wrapper">
+			<h4>A [very] short video of the Main Square of Palencia (Spain)</h4>
+			<video width="640" height="480" controls >
+			  <source src="recursos/palencia/MOV_1994.mp4" type="video/mp4" />
+			  <source src="recursos/palencia/MOV_1994.ogv" type="video/ogg" /> <!--  firefox -->
+			  <source src="recursos/palencia/MOV_1994.webm" type="video/webm" /> <!-- chrome -->
+			  <track src="recursos/palencia/subs.vtt" kind="subtitles" srclang="en" label="English" default />
+			  <track src="recursos/palencia/subs_es.vtt" kind="subtitles" srclang="es" label="Español" default />
+			  <p>Your browser does not support the <code>video</code> element.</p>
+			</video>
+		</div>
+		
+		<div class="wrapper">
+			<h4>An excerpt of the well known Big Buck Bunny video.</h4>
 			<video width="480" height="320" poster="recursos/BigBuck/poster.jpg" controls >
 			  <source src="recursos/BigBuck/BigBuck.m4v" type="video/mp4" />
 			  <source src="recursos/BigBuck/BigBuck.theora.ogv" type="video/ogg" /> <!--  firefox -->
 			  <source src="recursos/BigBuck/BigBuck.webm" type="video/webm" /> <!-- chrome -->
 			  <track src="recursos/BigBuck/subs.vtt" kind="subtitles" srclang="en" label="English" default />
-			  <track src="recursos/BigBuck/subs.vtt" kind="subtitles" srclang="es" label="Español" />
+			  <track src="recursos/BigBuck/subs_es.vtt" kind="subtitles" srclang="es" label="Español" />
 			  <p>Your browser does not support the <code>video</code> element.</p>
 			</video>
 		</div>
